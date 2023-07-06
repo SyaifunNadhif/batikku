@@ -8,7 +8,7 @@
     <title>Product</title>
   </head>
   <body>
-    <!-- NAVBAR -->
+    <!-- START NAVBAR -->
     <nav class="h-20 md:h-24 flex justify-between md:px-20 px-6 shadow-sm">
       <div class="w-44 flex items-center">
         <img src="./assets/logo.png" class="" alt="image_error" />
@@ -105,11 +105,42 @@
           </div>
         </ul>
       </div>
+
+      <div class="flex md:hidden">
+        <ul class="flex items-center gap-4">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 text-neutral-400 hover:text-neutral-900"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 9h16.5m-16.5 6.75h16.5"
+                />
+              </svg>
+            </button>
+            <div class="dropdown-content">
+              <a href="./index.html">Home </a>
+              <a href="./about.html">About</a>
+              <a href="./product.html">Product</a>
+              <a href="./cart.html">Cart</a>
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </ul>
+      </div>
     </nav>
+    <!-- END OF NAVBAR -->
 
     <!-- Head -->
     <section class="bg-neutral-100">
-      <div class="px-20 py-20">
+      <div class="md:px-20 md:py-20 py-10">
         <div class="flex flex-col justify-center items-center gap-5">
           <div class="flex flex-col justify-center items-center w-1/2">
             <h1 class="text-4xl font-bold text-neutral-700 mb-5">
@@ -122,7 +153,7 @@
               your needs and desires.
             </p>
             <input
-              class="bg-white w-1/2 shadow-md px-8 py-2 outline-none placeholder:text-neutral-500 rounded-md placeholder:italic"
+              class="bg-white md:w-1/2 shadow-md px-8 py-2 outline-none placeholder:text-neutral-500 rounded-md placeholder:italic"
               type="search"
               name=""
               placeholder="search..."
@@ -142,7 +173,7 @@
         ></path>
       </svg>
       <!-- Content -->
-      <div class="grid grid-cols-4 gap-10 mx-20 py-2">
+      <div class="grid md:grid-cols-4 gap-10 mx-20 py-2">
         <div class="bg-white w-full rounded-lg mb-10 shadow-lg">
           <div class="overflow-hidden flex justify-center my-8">
             <img src="./assets/step-1.png" class="w-60 h-72" alt="" />
@@ -198,7 +229,14 @@
 
             <div class="pt-5">
               <a>
-                <button class="bg-blue-200 px-3 py-1.5 italic">Details</button>
+                <button class="bg-blue-200 w-20 py-1.5 font-bold">
+                  Details
+                </button>
+              </a>
+              <a>
+                <button class="bg-blue-400 text-white font-bold w-20 py-1.5">
+                  Buy
+                </button>
               </a>
             </div>
           </div>
@@ -259,7 +297,14 @@
 
             <div class="pt-5">
               <a>
-                <button class="bg-blue-200 px-3 py-1.5 italic">Details</button>
+                <button class="bg-blue-200 w-20 py-1.5 font-bold">
+                  Details
+                </button>
+              </a>
+              <a>
+                <button class="bg-blue-400 text-white font-bold w-20 py-1.5">
+                  Buy
+                </button>
               </a>
             </div>
           </div>
@@ -320,7 +365,14 @@
 
             <div class="pt-5">
               <a>
-                <button class="bg-blue-200 px-3 py-1.5 italic">Details</button>
+                <button class="bg-blue-200 w-20 py-1.5 font-bold">
+                  Details
+                </button>
+              </a>
+              <a>
+                <button class="bg-blue-400 text-white font-bold w-20 py-1.5">
+                  Buy
+                </button>
               </a>
             </div>
           </div>
@@ -381,7 +433,14 @@
 
             <div class="pt-5">
               <a>
-                <button class="bg-blue-200 px-3 py-1.5 italic">Details</button>
+                <button class="bg-blue-200 w-20 py-1.5 font-bold">
+                  Details
+                </button>
+              </a>
+              <a>
+                <button class="bg-blue-400 text-white font-bold w-20 py-1.5">
+                  Buy
+                </button>
               </a>
             </div>
           </div>
