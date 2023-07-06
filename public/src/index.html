@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav class="h-20 md:h-24 flex justify-between md:px-20 px-6 shadow-sm">
+      <div class="w-44 flex items-center">
+        <img src="./assets/logo.png" class="" alt="image_error" />
+      </div>
+
+      <div class="md:flex hidden gap-10">
+        <ul class="flex items-center gap-10">
+          <li>
+            <a
+              href="./index.html"
+              class="hover:text-neutral-900 text-neutral-400 font-semibold hover:duration-700 cursor-pointer"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="./about.html"
+              class="hover:text-neutral-900 text-neutral-400 font-semibold hover:duration-700 cursor-pointer"
+            >
+              About
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="./product.html"
+              class="hover:text-neutral-900 text-neutral-400 font-semibold hover:duration-700 cursor-pointer"
+            >
+              Product
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="./login.html"
+              class="hover:text-neutral-900 text-neutral-400 font-semibold hover:duration-700 cursor-pointer"
+            >
+              Login
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="./register.html"
+              class="hover:text-neutral-900 text-neutral-400 font-semibold hover:duration-700 cursor-pointer"
+              to="/register"
+            >
+              Register
+            </a>
+          </li>
+        </ul>
+
+        <ul class="flex items-center gap-4">
+          <a href="./cart.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              class="w-6 h-6 text-neutral-400 hover:text-neutral-900 hover:cursor-pointer"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+          </a>
+
+          <div class="dropdown">
+            <button class="dropbtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="{1.5}"
+                stroke="currentColor"
+                class="w-6 h-6 text-neutral-400 hover:text-neutral-900 hover:cursor-pointer"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                />
+              </svg>
+            </button>
+            <div class="dropdown-content">
+              <a href="./profile.html">Edit profile</a>
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+      <div class="flex md:hidden">
+        <ul class="flex items-center gap-4">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 text-neutral-400 hover:text-neutral-900"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 9h16.5m-16.5 6.75h16.5"
+                />
+              </svg>
+            </button>
+            <div class="dropdown-content">
+              <a href="./index.html">Home </a>
+              <a href="./about.html">About</a>
+              <a href="./product.html">Product</a>
+              <a href="./cart.html">Cart</a>
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <div class="h-52 md:h-72">
+      <div class="bg-pattern bg-repeat md:h-72 h-52">
+        <div
+          class="md:mx-20 mx-6 md:pt-16 pt-12 text-xl md:text-2xl text-neutral-600"
+        >
+          <p class="font-semibold">
+            Batik is a culture <br />
+            that must <br />
+            be preserved.
+          </p>
+          <img
+            src="./assets/line.svg"
+            alt="no-image"
+            class="w-28 md:w-36 -rotate-3 pl-6"
+          />
+        </div>
+      </div>
+    </div>
+
+    <img src="./assets/batik-img.png" width="100%" alt="no-img" />
+
+    <section class="bg-neutral-100">
+      <div class="bg-pattern bg-repeat h-20 md:h-40 w-[100%] rounded-lg"></div>
+
+      <div class="md:px-20 md:py-36 px-6 py-12">
+        <div class="grid md:grid-cols-2 gap-20 md:gap-0">
+          <div class="">
+            <div class="flex flex-col md:gap-3 gap-1.5">
+              <h1 class="text-3xl md:text-5xl text-neutral-700 font-semibold">
+                One for all
+              </h1>
+              <h1 class="text-3xl md:text-5xl text-neutral-700 font-semibold">
+                solution, for
+              </h1>
+              <h1 class="text-3xl md:text-5xl text-neutral-700 font-semibold">
+                <span
+                  class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#C6965F] relative inline-block"
+                >
+                  <span class="relative text-white px-2">fashion</span>
+                </span>
+                batik
+              </h1>
+            </div>
+
+            <div class="mt-8 text-neutral-500">
+              <p class="text-lg">
+                A Batik Store is a place dedicated to selling batik products,
+                the distinctive textile art of Indonesia with deep cultural and
+                historical richness. In a batik store, visitors can find a wide
+                range of batik items such as batik fabrics, batik clothing, and
+                batik accessories.
+              </p>
+              <br />
+              <p class="text-lg">
+                Batik stores typically showcase various patterns, motifs, and
+                designs that are unique to different regions in Indonesia. Each
+                region has its own characteristic and style of batik, such as
+                Javanese batik, Pekalongan batik, Solo batik, Yogyakarta batik,
+                Madura batik, and many more. Batik stores provide products that
+                represent the beauty and uniqueness of each type of batik.
+              </p>
+            </div>
+
+            <div class="mt-8">
+              <button
+                class="py-2 px-6 border-none bg-yellow-700 text-white text-sm font-semibold rounded-md hover:bg-yellow-800 hover:duration-700"
+              >
+                GET STARTED
+              </button>
+            </div>
+          </div>
+
+          <div class="flex justify-center items-center">
+            <img class="" src="./assets/content-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-pattern bg-repeat h-20 md:h-40 w-[100%] rounded-lg"></div>
+    </section>
+
+    <section class="md:mx-20 md:my-28 mx-6 my-10">
+      <div class="mb-10">
+        <h1 class="text-3xl md:text-4xl text-neutral-700">
+          How <span class="font-bold">it works.</span>
+        </h1>
+      </div>
+      <div class="grid md:grid-cols-4 gap-10">
+        <div
+          class="bg-neutral-100 w-full flex flex-col justify-center items-center rounded-lg shadow-md"
+        >
+          <div class="mx-5 mt-14 mb-10 w-60 h-60">
+            <img src="./assets/step-1.png" class="" alt="" />
+          </div>
+
+          <div
+            class="bg-neutral-600 w-10 h-10 flex items-center justify-center rounded-full"
+          >
+            <p class="text-white font-semibold">1</p>
+          </div>
+
+          <div class="mt-6 mb-14">
+            <p class="font-semibold text-neutral-500 text-lg">
+              Pick your style
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-neutral-100 w-full flex flex-col justify-center items-center rounded-lg shadow-md"
+        >
+          <div class="mx-5 mt-14 mb-10 w-60 h-60">
+            <img src="./assets/step-2.png" alt="" />
+          </div>
+
+          <div
+            class="bg-neutral-600 w-10 h-10 flex items-center justify-center rounded-full"
+          >
+            <p class="text-white font-semibold">2</p>
+          </div>
+
+          <div class="mt-6 mb-14">
+            <p class="font-semibold text-neutral-500 text-lg">
+              Choose your size for perfect fit
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-neutral-100 w-full flex flex-col justify-center items-center rounded-lg shadow-md"
+        >
+          <div class="mx-5 mt-14 mb-10 w-60 h-60 overflow-hidden">
+            <img src="./assets/step-3.png" alt="" />
+          </div>
+
+          <div
+            class="bg-neutral-600 w-10 h-10 flex items-center justify-center rounded-full"
+          >
+            <p class="text-white font-semibold">3</p>
+          </div>
+
+          <div class="mt-6 mb-14">
+            <p class="font-semibold text-neutral-500 text-lg">
+              Checkout and choose payment
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-neutral-100 w-full flex flex-col justify-center items-center rounded-lg shadow-md"
+        >
+          <div class="mx-5 mt-14 mb-10 w-60 h-60 overflow-hidden">
+            <img src="./assets/step-4.png" alt="" />
+          </div>
+
+          <div
+            class="bg-neutral-600 w-10 h-10 flex items-center justify-center rounded-full"
+          >
+            <p class="text-white font-semibold">4</p>
+          </div>
+
+          <div class="mt-6 mb-14">
+            <p class="font-semibold text-neutral-500 text-lg">
+              Product will be shipped!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-neutral-700 p-5">
+      <div class="flex justify-center text-neutral-100">
+        <div>
+          <p>&copy; 2023 Batik Kencana. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
