@@ -5,16 +5,20 @@ class About extends Controller {
     {
         $data['judul'] = 'about';
         $this->view('templates/header', $data);
+        $this->view('templates/navbar');
         $this->view('about/index', $data);
         $this->view('templates/footer');
+        $this->view('templates/bottom');
     }
 
     public function page()
     {
         $data['judul'] = 'pages';
         $this->view('templates/header', $data);
+        $this->view('templates/navbar');
         $this->view('about/page');
         $this->view('templates/footer');
+        $this->view('templates/bottom');
     }
        // public function index($nama = 'Nadhif', $pekerjaan = 'mahasiswa', $umur = 23)
     // {

@@ -38,7 +38,7 @@
         <?php foreach ( $data['product'] as $prod) : ?>
         <div class="bg-white w-full rounded-lg mb-10 shadow-lg">
           <div class="overflow-hidden flex justify-center my-8">
-            <img src="<?= BASEURL; ?>/img/<?= $prod['img']?>" class="w-60 h-72" alt="" />
+            <img src="<?= BASEURL; ?>/img/<?= $prod['foto1']?>" class="w-60 h-72" alt="" />
           </div>
 
           <div class="content px-7 mb-8">
@@ -90,13 +90,18 @@
             </div>
 
             <div class="pt-5">
-              <a>
+              <a href="<?= BASEURL ; ?>/product/detail/<?= $prod['id'];?>">
                 <button class="bg-blue-200 px-3 py-1.5 italic">Details</button>
+              </a>
+            </div>
+            <div class="pt-5">
+              <a href="<?= BASEURL ; ?>/order/buyProduct/<?= $prod['id'];?>">
+                <button class="bg-blue-200 px-3 py-1.5 italic">Buy</button>
               </a>
             </div>
           </div>
         </div>
+        <?php endforeach; ?>
       </div>
-      <?php endforeach; ?>
 
     </section>
