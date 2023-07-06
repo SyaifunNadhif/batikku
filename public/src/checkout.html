@@ -90,7 +90,7 @@
                       <th scope="col" class="px-6 py-3">No</th>
                       <th scope="col" class="px-6 py-3">Nama</th>
                       <th scope="col" class="px-6 py-3">Gambar</th>
-                      <th scope="col" class="px-6 py-3">Tanggal Pendakian</th>
+                      <th scope="col" class="px-6 py-3">Ukuran</th>
                       <th scope="col" class="px-6 py-3">Harga</th>
                       <th scope="col" class="px-6 py-3">Qty</th>
                       <th scope="col" class="px-6 py-3">Total</th>
@@ -109,42 +109,105 @@
                           alt=""
                         />
                       </td>
-                      <td class="px-6 py-4">03/05/2022</td>
+                      <td class="px-6 py-4">L</td>
                       <td class="px-6 py-4">200000</td>
                       <td class="px-6 py-4">2</td>
                       <td class="px-6 py-4">400000</td>
                     </tr>
-
                     <tr class="bg-white">
-                      <td class="px-6 py-4">2</td>
+                      <td class="px-6 py-4">1</td>
                       <td class="px-6 py-4">Gunung Merbabu</td>
                       <td class="px-6 py-4">
                         <img
-                          src="./img/mount2.jpg"
+                          src="./img/mount1.jpg"
                           class="rounded-md"
                           width="150"
                           height="150"
                           alt=""
                         />
                       </td>
-                      <td class="px-6 py-4">03/05/2022</td>
+                      <td class="px-6 py-4">L</td>
                       <td class="px-6 py-4">200000</td>
                       <td class="px-6 py-4">2</td>
                       <td class="px-6 py-4">400000</td>
                     </tr>
-
-                    <tr class="bg-gray-500">
-                      <td></td>
-                      <td
-                        colspan="5"
-                        class="px-6 py-4 font-bold text-white whitespace-nowrap"
-                      >
-                        Subtotal
+                    <tr class="bg-white">
+                      <td class="px-6 py-4">1</td>
+                      <td class="px-6 py-4">Gunung Merbabu</td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="./img/mount1.jpg"
+                          class="rounded-md"
+                          width="150"
+                          height="150"
+                          alt=""
+                        />
                       </td>
-                      <td class="px-6 py-4 font-bold text-white">30.000</td>
+                      <td class="px-6 py-4">L</td>
+                      <td class="px-6 py-4">200000</td>
+                      <td class="px-6 py-4">2</td>
+                      <td class="px-6 py-4">400000</td>
                     </tr>
                   </tbody>
                 </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full py-3">
+          <div class="mx-auto">
+            <div class="bg-white p-4">
+              <p class="font-bold text-lg mb-3">Informasi Pengiriman</p>
+              <div class="mb-5">
+                <label for="alamat" class="font-semibold">Alamat Lengkap</label>
+                <textarea
+                  id="alamat"
+                  class="border border-neutral-200 mt-2 p-2 outline-none w-full"
+                >
+                </textarea>
+              </div>
+              <div class="grid xl:grid-cols-4 sm:grid-cols-1 gap-4">
+                <div class="flex flex-col">
+                  <label class="font-semibold">Provinsi</label>
+                  <select
+                    name=""
+                    id=""
+                    class="border border-neutral-200 py-2 mt-1 outline-none"
+                  >
+                    <option value="">--Provinsi--</option>
+                  </select>
+                </div>
+                <div class="flex flex-col">
+                  <label class="font-semibold">Distrik</label>
+                  <select
+                    name=""
+                    id=""
+                    class="border border-neutral-200 py-2 mt-1 outline-none"
+                  >
+                    <option value="">--Distrik--</option>
+                  </select>
+                </div>
+                <div class="flex flex-col">
+                  <label class="font-semibold">Ekspedisi</label>
+                  <select
+                    name=""
+                    id=""
+                    class="border border-neutral-200 py-2 mt-1 outline-none"
+                  >
+                    <option value="">--Ekspedisi--</option>
+                  </select>
+                </div>
+                <div class="flex flex-col">
+                  <label class="font-semibold">Paket</label>
+                  <select
+                    name=""
+                    id=""
+                    class="border border-neutral-200 py-2 mt-1 outline-none"
+                  >
+                    <option value="">--Paket--</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
@@ -186,12 +249,6 @@
                     <option value="FR">Bank Mandiri</option>
                     <option value="FR">Bank Lain</option>
                   </select>
-                  <!-- <div class="flex flex-wrap gap-3.5">
-                    <img src="./img/bca.svg" class="w-14 lg:w-20" alt="" />
-                    <img src="./img/mandiri.svg" class="w-14 lg:w-20" alt="" />
-                    <img src="./img/bni.svg" class="w-14 lg:w-20" alt="" />
-                    <img src="./img/bri.svg" class="w-14 lg:w-20" alt="" />
-                  </div> -->
                   <hr class="my-2" />
                   <a
                     href="nota.html"
