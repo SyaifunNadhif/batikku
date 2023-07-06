@@ -55,7 +55,7 @@
         <div class="w-full py-3">
           <div class="mx-auto">
             <div class="bg-white p-4">
-              <p class="font-bold text-lg mb-3">Informasi Umum</p>
+              <p class="font-bold text-lg mb-3">Informasi Pengguna</p>
               <div class="grid xl:grid-cols-4 sm:grid-cols-1 gap-4">
                 <div class="">
                   <p class="font-bold">Email</p>
@@ -77,6 +77,57 @@
             </div>
           </div>
         </div>
+
+        <!-- Info Pemelian -->
+        <div class="w-full py-3">
+          <div class="mx-auto">
+            <div class="bg-white p-4">
+              <p class="font-bold text-lg mb-3">Informasi Pembelian</p>
+              <div class="grid xl:grid-cols-4 sm:grid-cols-1 gap-4">
+                <div class="">
+                  <p class="font-bold">No Pembelian</p>
+                  <p class="text-gray-500">21</p>
+                </div>
+                <div class="">
+                  <p class="font-bold">Tanggal</p>
+                  <p class="text-gray-500">06 Jul 2023</p>
+                </div>
+                <div class="">
+                  <p class="font-bold">Total Pembelian</p>
+                  <p class="text-gray-500">Rp. 512,000,-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Info Pengiriman -->
+        <div class="w-full py-3">
+          <div class="mx-auto">
+            <div class="bg-white p-4">
+              <p class="font-bold text-lg mb-3">Informasi Pengiriman</p>
+              <div class="grid xl:grid-cols-4 sm:grid-cols-1 gap-4">
+                <div class="">
+                  <p class="font-bold">Lokasi</p>
+                  <p class="text-gray-500">Kudus, Jawa Tengah</p>
+                </div>
+                <div class="">
+                  <p class="font-bold">Ongkos Kirim</p>
+                  <p class="text-gray-500">Rp. 12,000,-</p>
+                </div>
+                <div class="">
+                  <p class="font-bold">Ekspedisi</p>
+                  <p class="text-gray-500">POS REGULER 3 HARI</p>
+                </div>
+                <div class="">
+                  <p class="font-bold">Alamat</p>
+                  <p class="text-gray-500">Depan Masjid</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- produk yg dipesan -->
         <div class="w-full py-3 hidden md:block">
           <div class="mx-auto">
@@ -89,8 +140,10 @@
                       <th scope="col" class="px-6 py-3">No</th>
                       <th scope="col" class="px-6 py-3">Nama</th>
                       <th scope="col" class="px-6 py-3">Gambar</th>
-                      <th scope="col" class="px-6 py-3">Tanggal Pendakian</th>
+                      <th scope="col" class="px-6 py-3">Size</th>
+                      <th scope="col" class="px-6 py-3">Berat</th>
                       <th scope="col" class="px-6 py-3">Harga</th>
+                      <th scope="col" class="px-6 py-3">Sub Berat</th>
                       <th scope="col" class="px-6 py-3">Qty</th>
                       <th scope="col" class="px-6 py-3">Total</th>
                     </tr>
@@ -108,39 +161,12 @@
                           alt=""
                         />
                       </td>
-                      <td class="px-6 py-4">03/05/2022</td>
+                      <td class="px-6 py-4">XL</td>
+                      <td class="px-6 py-4">100 gram</td>
                       <td class="px-6 py-4">200000</td>
+                      <td class="px-6 py-4">100 gram</td>
                       <td class="px-6 py-4">2</td>
                       <td class="px-6 py-4">400000</td>
-                    </tr>
-
-                    <tr class="bg-white">
-                      <td class="px-6 py-4">2</td>
-                      <td class="px-6 py-4">Gunung Merbabu</td>
-                      <td class="px-6 py-4">
-                        <img
-                          src="./img/mount2.jpg"
-                          class="rounded-md"
-                          width="150"
-                          height="150"
-                          alt=""
-                        />
-                      </td>
-                      <td class="px-6 py-4">03/05/2022</td>
-                      <td class="px-6 py-4">200000</td>
-                      <td class="px-6 py-4">2</td>
-                      <td class="px-6 py-4">400000</td>
-                    </tr>
-
-                    <tr class="bg-gray-500">
-                      <td></td>
-                      <td
-                        colspan="5"
-                        class="px-6 py-4 font-bold text-white whitespace-nowrap"
-                      >
-                        Subtotal
-                      </td>
-                      <td class="px-6 py-4 font-bold text-white">30.000</td>
                     </tr>
                   </tbody>
                 </table>
@@ -380,7 +406,7 @@
                         <div class="flex items-center mb-3">
                           <span
                             class="bg-orange-100 text-orange-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded"
-                            >Beta</span
+                            >Payment</span
                           >
                           <button
                             type="button"
@@ -404,10 +430,8 @@
                           </button>
                         </div>
                         <p class="mb-3 text-sm text-blue-900">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Amet rerum recusandae, deleniti delectus vitae
-                          natus tenetur autem modi laborum quod velit magni qui
-                          vero libero labore ipsam eos doloribus! Vitae.
+                          Silahkan segera lakukan pembayaran sejumlah Rp.
+                          512,000,-
                         </p>
                       </div>
                       <ul class="space-y-2">
