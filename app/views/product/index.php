@@ -1,6 +1,6 @@
     <!-- Head -->
     <section class="bg-neutral-100">
-      <div class="px-20 py-20">
+      <div class="px-20" style=" padding-top: 35px;">
         <div class="flex flex-col justify-center items-center gap-5">
           <div class="flex flex-col justify-center items-center w-1/2">
             <h1 class="text-4xl font-bold text-neutral-700 mb-5">
@@ -24,7 +24,7 @@
       </div>
     </section>
 
-    <section class="bg-pattern bg-repeat">
+    <section class="bg-repeat" style="background-image: url('<?= BASEURL; ?>/img/topography.svg');">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#f5f5f5"
@@ -43,7 +43,7 @@
 
           <div class="content px-7 mb-8">
             <div class="">
-              <p class="text-neutral-400 font-semibold text-sm">{category}</p>
+              <p class="text-neutral-400 font-semibold text-sm"><?= $prod['kategori']?></p>
             </div>
 
             <div class="mb-1">
@@ -71,7 +71,7 @@
 
               <p><?= $prod['harga']?></p>
             </div>
-
+<!-- 
             <div class="flex gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,16 +87,14 @@
               </svg>
 
               <p class="text-yellow-500 font-semibold">{rating}</p>
-            </div>
+            </div> -->
 
             <div class="pt-5">
               <a href="<?= BASEURL ; ?>/product/detail/<?= $prod['id'];?>">
-                <button class="bg-blue-200 px-3 py-1.5 italic">Details</button>
+                <button class="bg-blue-200 w-20 py-1.5 font-bold">Details</button>
               </a>
-            </div>
-            <div class="pt-5">
               <a href="<?= BASEURL ; ?>/order/buyProduct/<?= $prod['id'];?>">
-                <button class="bg-blue-200 px-3 py-1.5 italic">Buy</button>
+                <button class="bg-blue-400 text-white font-bold w-20 py-1.5">Buy</button>
               </a>
             </div>
           </div>

@@ -3,7 +3,7 @@
         class="absolute left-60 top-20 z-50 bg-white w-2/3 h-[75%] shadow-lg rounded-xl overflow-hidden"
       >
         <div class="grid grid-cols-2 h-full">
-          <div class="mx-28 my-20">
+          <div class="mx-28 my-10">
             <div
               class="top-content flex flex-col justify-center items-center gap-3 mb-8"
             >
@@ -54,7 +54,7 @@
 
             <div class="flex gap-1 justify-center text-sm mt-2">
               <p class="text-neutral-600">Dont have account?</p>
-              <a href="./register.html">
+              <a href="<?= BASEURL; ?>/user/register">
                 <span class="text-blue-500 font-semibold">Register</span>
               </a>
             </div>
@@ -66,5 +66,5 @@
         </div>
       </div>
 
-      <div class="bg-pattern bg-repeat h-[100vh]"></div>
+      <div class=" bg-repeat h-[100vh]" style="background-image: url('<?= BASEURL; ?>/img/topography.svg');"></div>
     </section>

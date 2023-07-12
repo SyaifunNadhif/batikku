@@ -198,7 +198,7 @@ echo 'Welcome, ' . $user['email'];
                   <div
                     class="w-1/2 outline-none mb-4 px-2 py-2 bg-blue-50 border border-blue-100 font-bold text-gray-600 rounded-md"
                   >
-                    <p><?= $user['fullname']; ?></p>
+                    <p><?= $user['phonenumber']; ?></p>
                   </div>
                 </div>
               </div>

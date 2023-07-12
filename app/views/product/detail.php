@@ -75,7 +75,7 @@
               <span class="ml-1 text-emerald-500"><?= $prod['harga']?></span>
             </dd>
             <!-- tiket -->
-            <dt class="sr-only">Tiket</dt>
+            <!-- <dt class="sr-only">Tiket</dt>
             <dd class="flex items-center text-gray-600">
               <svg
                 width="2"
@@ -100,9 +100,9 @@
               <input
                 type="number"
                 class="border border-gray-300 rounded-md outline-none w-20 text-center"/>
-            </dd>
+            </dd> -->
           </dl>
-          <div class="col-start-1 mt-3 row-start-3 self-center sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:col-start-1 lg:row-start-3 lg:row-end-4">
+          <!-- <div class="col-start-1 mt-3 row-start-3 self-center sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:col-start-1 lg:row-start-3 lg:row-end-4">
             <label
               for="countries"
               class="block mb-2 text-sm font-medium text-neutral-700 dark:text-wh">Cloth size</label>
@@ -115,7 +115,7 @@
               <option value="L">L</option>
               <option value="XL">XL</option>
             </select>
-          </div>
+          </div> -->
           <p
             class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 text-neutral-500">
             This sunny and spacious room is for those traveling light and
@@ -131,12 +131,6 @@
               Back
             </a>
 
-            <button
-              name="buy"
-              type="button"
-              class="bg-emerald-600 hover:bg-emerald-700 text-white text-sm leading-6 font-medium py-1.5 w-32 rounded-lg">
-              Buy
-            </button>
           </div>
         </div>
       </main>

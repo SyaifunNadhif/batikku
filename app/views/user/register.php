@@ -1,5 +1,5 @@
 <section class="h-[100vh]">
-      <div class="bg-pattern h-[100vh] bg-repeat flex justify-center">
+      <div class="h-[100vh] bg-repeat flex justify-center" style="background-image: url('<?= BASEURL; ?>/img/topography.svg');">
         <div class="bg-white w-5/6 h-full hidden md:flex shadow-lg">
           <div class="h-full w-[30%]">
             <img src="<?= BASEURL; ?>/img/sign-up.svg" class="w-full h-full" alt="" />
@@ -91,7 +91,7 @@
 
               <div class="flex gap-1 justify-center text-sm mt-2">
                 <p class="text-neutral-600">You have account?</p>
-                <a href="./login.html">
+                <a href="<?= BASEURL; ?>/user/login">
                   <span class="text-blue-500 font-semibold">Login</span>
                 </a>
               </div>

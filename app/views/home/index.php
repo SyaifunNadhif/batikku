@@ -1,6 +1,6 @@
 
 <div class="h-52 md:h-72">
-    <div class="bg-pattern bg-repeat md:h-72 h-52">
+    <div class="bg-repeat md:h-72 h-52" style="background-image: url('<?= BASEURL; ?>/img/topography.svg');">
         <div
           class="md:mx-20 mx-6 md:pt-16 pt-12 text-xl md:text-2xl text-neutral-600">
           <p class="font-semibold">
@@ -19,7 +19,7 @@
 
 <img src="<?= BASEURL; ?>/img/batik-img.png" width="100%" alt="no-img" />
 <section class="bg-neutral-100">
-    <div class="bg-pattern bg-repeat h-20 md:h-40 w-[100%] rounded-lg"></div>
+    <div class="bg-repeat h-20 md:h-40 w-[100%] rounded-lg" style="background-image: url('<?= BASEURL; ?>/img/topography.svg');"></div>
 
       <div class="md:px-20 md:py-36 px-6 py-12">
         <div class="grid md:grid-cols-2 gap-20 md:gap-0">
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-    <div class="bg-pattern bg-repeat h-20 md:h-40 w-[100%] rounded-lg"></div>
+    <div class="bg-repeat h-20 md:h-40 w-[100%] rounded-lg " style="background-image: url('<?= BASEURL; ?>/img/topography.svg');"></div>
 </section>
 
 <section class="md:mx-20 md:my-28 mx-6 my-10">

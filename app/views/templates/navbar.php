@@ -76,23 +76,14 @@
               </svg>
             </button>
             <div class="dropdown-content">
-              <a href="<?= BASEURL; ?>/user/profil">Profil
-            </a>
-              <a href="./profile.html">
-              <?php
-              if (isset($_SESSION['user'])) {
-                  $user = $_SESSION['user'];
-                  echo $user['fullname'];
-              }
-              ?>
-            </a>
+              <a href="<?= BASEURL; ?>/user/profil">Profil</a>
               <a href="<?= BASEURL; ?>/user/logoutUser ">Logout</a>
             </div>
           </div>
           
           
           <?php endif; ?>
-          <a href="./cart.html">
+          <a href="<?= BASEURL; ?>/order/cart">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
